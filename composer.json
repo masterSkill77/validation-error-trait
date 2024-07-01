@@ -1,22 +1,22 @@
 {
-    "name": "masterskill/validation-error-trait",
-    "description": "This package is a trait to validate input and return directly error with status code 400 to FormRequest in laravel",
-    "type": "library",
-    "license": "MIT",
-    "autoload": {
-        "psr-4": {
-            "Masterskill\\ValidationErrorTrait\\": "src/"
-        }
-    },
-    "authors": [
-        {
-            "name": "Clairmont RAJAONARISON",
-            "email": "clairmont.rajaonarison@gmail.com"
-        }
-    ],
-    "minimum-stability": "stable",
-    "require": {
-        "php": "^8.0",
-        "laravel/framework": "^9"
-    }
+	"name": "masterskill/validation-error-trait",
+	"description": "This package is a trait to validate input and return directly error with status code 400 to FormRequest in laravel",
+	"type": "library",
+	"license": "MIT",
+	"autoload": {
+		"psr-4": {
+			"Masterskill\\ValidationErrorTrait\\": "src/"
+		}
+	},
+	"authors": [
+		{
+			"name": "Clairmont RAJAONARISON",
+			"email": "clairmont.rajaonarison@gmail.com"
+		}
+	],
+	"minimum-stability": "stable",
+	"require": {
+		"php": "^8.0",
+		"laravel/framework": "<=9"
+	}
 }
